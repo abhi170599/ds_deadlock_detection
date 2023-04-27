@@ -1,20 +1,17 @@
 
 # BITS WILP Assignemnt S2-22_SSZG526 Distributed Systems - Abhishek Jha (2022MT13029)
 
----
-###### The objective of this process is to simulate a mocked distributed computing environment, where multiple process share resources. The program uses the **Chandy-Misra-Haas**  Deadlock detection algorithm for AND-Model.  
-#
-#
-    
-    
+###### The objective of this process is to simulate a mocked distributed computing environment, where multiple process share resources. The program uses the **Chandy-Misra-Haas**  Deadlock detection algorithm for AND-Model
 
+<br>
+<br>
 
 ### Requirements
 ---
 **Programing Language** : Python 3  (>= 3.6)
 **OS**                  : Any
 
-#
+<br>
 
 #### Running the Simulation
 ---
@@ -50,8 +47,7 @@ such that  you see the following contents in the directory
                         number of resources to be used in the simulation
     [abhi17@abhishekjha-ds-assignment ds_assignemnt]$ 
     ```
-#
-#
+
 
 #### Output
 ---
@@ -59,7 +55,7 @@ such that  you see the following contents in the directory
 The simulation writes the deadlock detection related messages to the stdout while the process level messages are written to the `simulation.log` file that is created in the same directory.
 
 ##### Sample STDOUT Output
-#
+
 
 ```
 [abhi17@abhishekjha-ds-assignment ds_assignemnt]$ python3 main.py -n 10 -m 5
@@ -71,7 +67,7 @@ process 2 performing Harakiri to break the deadlock
 ```
 
 ##### Sample log output
-#
+
 ```
 2023-04-27 16:18:26,595 starting process 1
 2023-04-27 16:18:26,595 (Process 1) has requested for resource (Resource 2)
